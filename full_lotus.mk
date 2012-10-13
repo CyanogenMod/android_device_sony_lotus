@@ -30,7 +30,7 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 #charging animation
-$(call inherit-product, device/sony/montblanc-common/prebuilt/resources-mdpi.mk)
+$(call inherit-product, device/sony/montblanc-common/prebuilt/resources-320x480.mk)
 
 # Inherit from lotus device
 $(call inherit-product, device/sony/lotus/lotus.mk)
