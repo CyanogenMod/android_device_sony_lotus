@@ -248,6 +248,7 @@ lib/libkeyctrl.so
 xbin/watchdog-kicker
 xbin/ste-cg29xx_ctrl
 xbin/battery_params
+xbin/toybox
 vendor/camera/KMO05BN0_BH6476.dat
 vendor/camera/product.dat
 vendor/camera/STW05BN0_BH6476.dat
