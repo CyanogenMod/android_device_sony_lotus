@@ -78,6 +78,10 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/cflashlib.cfg:system/etc/cflashlib.cfg \
    $(LOCAL_PATH)/config/flashled_param_config.cfg:system/etc/flashled_param_config.cfg
 
+# zram init script
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/prebuilt/02zram:system/etc/init.d/02zram
+
 $(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/sony/lotus/lotus-vendor.mk)
