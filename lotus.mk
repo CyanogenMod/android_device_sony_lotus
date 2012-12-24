@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/dash.conf:system/etc/dash.conf \
    $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
 
+# zram init script
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/prebuilt/10zram:system/etc/init.d/10zram
+
 # USB function switching
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/init.st-ericsson.usb.rc:root/init.st-ericsson.usb.rc

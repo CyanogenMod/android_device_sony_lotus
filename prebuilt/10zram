@@ -1,0 +1,12 @@
+#!/system/bin/sh
+#
+# zram handler
+#
+
+MEMTOTAL=$( awk '{ if ($1 eq "MemTotal:") print $2 ;exit }' < /proc/meminfo )
+PROP=`getprop persist.service.zram`
+CCSIZE=$(($(($MEMTOTAL * $PROP)) / 100))
+
+if [[ $PROP > 0 ]]; then
+   /system/bin/compcache start $CCSIZE
+fi
