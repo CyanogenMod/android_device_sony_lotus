@@ -13,6 +13,7 @@ TARGET_KERNEL_CONFIG := cyanogen_lotus_defconfig
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
+TARGET_RECOVERY_INITRC := device/sony/lotus/recovery/init.rc
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_CMDLINE := device/sony/lotus/config/cmdline.txt
