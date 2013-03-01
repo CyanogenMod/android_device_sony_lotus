@@ -27,7 +27,6 @@ bin/simpbd
 bin/ste-adm-test
 bin/cspsa-server
 bin/ste_omxil_test
-bin/system_monitor
 bin/taimport
 bin/wait4tad
 bin/blue-up.sh
@@ -105,16 +104,6 @@ lib/libste_aiq_tools.so
 lib/libcald_hal.so
 lib/libmpl.so
 lib/libcald_util.so
-lib/sysmon/sysmon_ab8500_ext_rtc_xtal.so
-lib/sysmon/sysmon_db8500_ext.so
-lib/sysmon/sysmon_lcd_brightnesslevel30.so
-lib/sysmon/sysmon_lcd_brightnesslevel70.so
-lib/sysmon/sysmon_ab8500_bat_ctrl.so
-lib/sysmon/sysmon_ab8500_bat_temp.so
-lib/sysmon/sysmon_ab8500.so
-lib/sysmon/sysmon_lcd_brightnesslevel50.so
-lib/sysmon/sysmon_lcd_brightness_reset.so
-lib/sysmon/sysmon_test_sensor.so
 lib/libta.so
 lib/libtee.so
 lib/libjpeg.so
