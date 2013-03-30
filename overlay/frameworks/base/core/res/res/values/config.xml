@@ -24,7 +24,7 @@
     <!-- Flag indicating whether we should enable the automatic brightness in Settings.
          config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
     <bool name="config_automatic_brightness_available">true</bool>
-    <bool name="config_autoBrightnessButtonKeyboard">true</bool>
+    <bool name="config_autoBrightnessButtonKeyboard">false</bool>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">1</integer>
@@ -49,7 +49,6 @@
         <item>4422</item>
         <item>10724</item>
         <item>16724</item>
-        <item>20000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -63,7 +62,6 @@
         <item>93</item>
         <item>105</item>
         <item>120</item>
-        <item>135</item>
         <item>162</item>
         <item>200</item>
         <item>236</item>
@@ -91,7 +89,6 @@
          than the size of the config_autoBrightnessLevels array.
     -->
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>0</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
